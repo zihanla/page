@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 600px;
+    display: grid;
+    /*容器在空间位置的排列方式*/
+    place-content: center;
+    /*在容器中垂直水平居中*/
+    place-items: center;
+}
+
+
+/*头像*/
+
+.main .logo img {
+    border-radius: 50%;
+    width: 135px;
+}
+
+
+a {
+    color: rgb(47, 61, 78);
+}
